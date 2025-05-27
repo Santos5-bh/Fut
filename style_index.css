@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+  height: 70px;
+  background-color: #004d00;
+  color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#linkPerfil img {
+  width: 48px;
+  height: 48px;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  background: #003300;
+  color: #eee;
+}
