@@ -1,0 +1,29 @@
+<!-- public/login.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login FutNews</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>⚽ Bem-vindo ao Fut News!</h1>
+        <form id="formLogin">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Seu apelido no campo" required />
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Sua senha" required />
+
+            <a href="index.html"><button type="submit" onclick="(e) => e.preventDefault()">ENTRAR</button></a>
+            <p>Não tem uma conta? <a class="linkcadastro" href="cadastro.index">Cadastre-se</a></p>
+        </form>
+        <p id="msgErro" class="erro"></p>
+    </div>
+</body>
+
+</html>

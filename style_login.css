@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* Grama de estádio: listras claras e escuras */
+  background-color: #006400;
+  background-image: 
+    repeating-linear-gradient(
+      0deg,
+      #006400 0,
+      #006400 40px,
+      #008000 40px,
+      #008000 80px
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 320px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #004d00;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #004d00;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 1.5rem;
+  background: #004d00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #003300;
+}
+
+.erro {
+  color: #c00;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.linkcadastro {
+    color: rgb(37, 118, 194);
+}
+
+.linkcadastro:hover {
+    color: rgb(241, 48, 0);
+    text-decoration: underline;
+}
+
