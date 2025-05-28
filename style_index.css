@@ -16,18 +16,33 @@ header {
 }
 
 #linkPerfil img {
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height: 38px;
+  transition: .2s;
+
+  &:hover {
+    opacity: .5;
+  }
 }
 
 main {
     flex: 1;
     padding: 10px;
+    max-width: 900px;
+    margin-inline: auto;
+
+    h1, h2, p {
+        margin-bottom: 10px;
+    }
+
+    p {
+        text-indent: 2rem;
+    }
 }
 
 footer {
-  display: flex;
   padding: 10px;
   background: #003300;
   color: #eee;
+  text-align: center;
 }
