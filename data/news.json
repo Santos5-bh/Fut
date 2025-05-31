@@ -1,8 +1,62 @@
 [
-    {
-        "title": "Exemplo",
-        "description": "Descrição da noticia que vai aparecer no card",
-        "data": 239702933,
-        "thumb": "imgs/placeholder.jpg"
-    }
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "PSG e Inter disputam final da Champions League",
+    "descricao": "PSG busca seu primeiro título europeu contra a experiente Inter de Milão na final da Champions League 2025.",
+    "data": "31/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "LAFC mira reforços de peso para o Mundial de Clubes",
+    "descricao": "LAFC planeja contratar estrelas como Griezmann, Pogba e Müller visando o Mundial de Clubes 2025.",
+    "data": "31/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Real Madrid anuncia contratação de Alexander-Arnold",
+    "descricao": "Lateral inglês reforça o Real Madrid para a disputa do Mundial de Clubes nos EUA.",
+    "data": "31/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Atalanta demonstra interesse em Djibril Sow",
+    "descricao": "Meio-campista do Sevilla pode reforçar a Atalanta na próxima temporada.",
+    "data": "31/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Cristiano Ronaldo avalia futuro na Arábia Saudita",
+    "descricao": "Craque português pode renovar com Al Nassr ou mudar de clube no projeto saudita.",
+    "data": "31/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Ancelotti convoca Casemiro e deixa Neymar e Rodrygo de fora",
+    "descricao": "Novo técnico da Seleção Brasileira faz mudanças significativas na primeira convocação.",
+    "data": "27/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Copa Intercontinental 2025 começa antes do fim do Brasileirão",
+    "descricao": "Torneio internacional terá início 11 dias antes da conclusão do Campeonato Brasileiro.",
+    "data": "05/03/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "São Paulo conquista Supercopa Feminina 2025",
+    "descricao": "Time feminino do São Paulo vence o Corinthians nos pênaltis e leva o título inédito.",
+    "data": "15/03/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Vasco é campeão invicto da Copa do Brasil Sub-17",
+    "descricao": "Equipe carioca vence o Bahia nos pênaltis e conquista seu primeiro título na categoria.",
+    "data": "06/05/2025"
+  },
+  {
+    "thumb": "imgs/placeholder.jpg",
+    "titulo": "Brasil vence Sul-Americano Sub-17 nos pênaltis",
+    "descricao": "Seleção brasileira conquista seu 14º título ao derrotar a Colômbia na final.",
+    "data": "12/04/2025"
+  }
 ]

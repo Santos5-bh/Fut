@@ -2,110 +2,77 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FutNews</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutNews</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_index.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_index.css">
 </head>
 
 <body>
-    <header>
-        <h1>FutNews</h1>
-        <div>
-            <a class="header-icon" href="./login.html"><img src="./imgs/perfil.png"></a>
-            <label class="header-icon" for="ativar-menu"><img src="./imgs/menu.png"></label>
-        </div>
-        <input id="ativar-menu" type="checkbox" style="display: none">
-        <nav id="menu-lateral">
-            <ul>
-                <li><a href="cadastro.html">Cadastro</a></li>
-            </ul>
-        </nav>
-    </header>
+  <template id="card-noticia-template">
+    <li class="card-noticia">
+      <img id="thumb" src="imgs/placeholder.jpg">
+      <div>
+        <h2 id="titulo"><a id="titulo-link" href="login.html">Lorem Ipsum</a></h2>
+        <p id="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque
+          atque
+          perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at
+          eligendi hic?</p>
+        <span id="data">00/00/0000</span>
+      </div>
+    </li>
+  </template>
 
-    <main>
-        <h1>Notícias</h1>
-        <ul>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-            <li class="card-noticia">
-               <img src="imgs/placeholder.jpg">
-                <div>
-                    <h2><a href="login.html">Lorem Ipsum</a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque atque perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at eligendi hic?</p>
-                    <span class="data">00/00/0000</span>
-                </div> 
-            </li>
-        </ul>
-    </main>
+  <header>
+    <h1>FutNews</h1>
+    <div>
+      <a class="header-icon" href="./login.html"><img src="./imgs/perfil.png"></a>
+      <label class="header-icon" for="ativar-menu"><img src="./imgs/menu.png"></label>
+    </div>
+    <input id="ativar-menu" type="checkbox" style="display: none">
+    <nav id="menu-lateral">
+      <ul>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
-        &copy; FutNews 2025
-    </footer>
+  <main>
+    <h1>Notícias</h1>
+    <ul id="lista-de-noticias">
+    </ul>
+  </main>
+
+  <footer>
+    &copy; FutNews 2025
+  </footer>
+
+  <script src="js/fake-api.js"></script>
+  <script>
+    const cardNoticiaTemplate = document.querySelector("#card-noticia-template")
+    const listaDeNoticias = document.querySelector("#lista-de-noticias")
+
+    const newsAPI = loadFakeApi("/data/news.json")
+
+    newsAPI.get().then(news => {
+      news.forEach(dados => {
+        const card = document.importNode(cardNoticiaTemplate.content, true)
+
+        const tituloLink = card.querySelector("#titulo-link")
+        tituloLink.textContent = dados.titulo
+
+        const descricao = card.querySelector("#descricao")
+        descricao.textContent = dados.descricao
+
+        const data = card.querySelector("#data")
+        data.textContent = dados.data
+
+        listaDeNoticias.appendChild(card)
+      })
+    })
+  </script>
 </body>
 
 </html>
