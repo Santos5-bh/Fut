@@ -34,14 +34,14 @@ header {
   transition: .2s;
   margin-left: 10px;
   cursor: pointer;
+}
 
-  &:hover {
-    opacity: .5;
-  }
+.header-icon img:hover {
+  opacity: .5;
 }
 
 #ativar-menu:checked+#menu-lateral {
-  display: block !important
+  display: block !important;
 }
 
 #menu-lateral {
