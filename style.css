@@ -54,28 +54,29 @@ header {
   display: none;
   animation: move-left .2s forwards;
   box-shadow: 0px 5px 5px #0004;
+  overflow: hidden;
+}
 
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    list-style: none;
+#menu-lateral ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
 
-    li {
-      background-color: #0407;
-      border-radius: 4px;
+#menu-lateral li {
+  background-color: #0407;
+  border-radius: 4px;
+}
 
-      &:hover {
-        background: #040f;
-      }
+#menu-lateral li:hover {
+  background: #040f;
+}
 
-      a {
-        display: block;
-        padding: 10px;
-        color: inherit;
-      }
-    }
-  }
+#menu-lateral li a {
+  display: block;
+  padding: 10px;
+  color: inherit;
 }
 
 @media (max-width: 720px) {
