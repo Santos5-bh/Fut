@@ -77,6 +77,7 @@ header {
   display: block;
   padding: 10px;
   color: inherit;
+  text-transform: uppercase;
 }
 
 @media (max-width: 720px) {
