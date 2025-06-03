@@ -61,24 +61,24 @@
     const cardNoticiaTemplate = document.querySelector("#card-noticia-template")
     const listaDeNoticias = document.querySelector("#lista-de-noticias")
 
-    const newsAPI = loadFakeApi("/data/news.json")
+    fetch("/data/news.json")
+      .then(res => res.json())
+      .then(news => {
+        news.forEach(dados => {
+          const card = document.importNode(cardNoticiaTemplate.content, true)
 
-    newsAPI.get().then(news => {
-      news.forEach(dados => {
-        const card = document.importNode(cardNoticiaTemplate.content, true)
+          const tituloLink = card.querySelector("#titulo-link")
+          tituloLink.textContent = dados.titulo
 
-        const tituloLink = card.querySelector("#titulo-link")
-        tituloLink.textContent = dados.titulo
+          const descricao = card.querySelector("#descricao")
+          descricao.textContent = dados.descricao
 
-        const descricao = card.querySelector("#descricao")
-        descricao.textContent = dados.descricao
+          const data = card.querySelector("#data")
+          data.textContent = dados.data
 
-        const data = card.querySelector("#data")
-        data.textContent = dados.data
-
-        listaDeNoticias.appendChild(card)
+          listaDeNoticias.appendChild(card)
+        })
       })
-    })
   </script>
 </body>
 
