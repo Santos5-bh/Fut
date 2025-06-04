@@ -51,12 +51,12 @@
     &copy; FutNews 2025
   </footer>
 
-  <script src="js/fake-api.js"></script>
+ 
   <script>
     const cardNoticiaTemplate = document.querySelector("#card-noticia-template")
     const listaDeNoticias = document.querySelector("#lista-de-noticias")
 
-    fetch("/data/news.json")
+    fetch("data/news.json")
       .then(res => res.json())
       .then(news => {
         news.forEach(dados => {
