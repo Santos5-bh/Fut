@@ -15,7 +15,7 @@
     <li class="card-noticia">
       <img id="thumb" src="imgs/placeholder.jpg">
       <div>
-        <h2 id="titulo"><a id="titulo-link" href="login.html">Lorem Ipsum</a></h2>
+        <h2 id="titulo"><a id="titulo-link" href="erro404.html">Lorem Ipsum</a></h2>
         <p id="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa explicabo ducimus itaque
           atque
           perferendis recusandae minima possimus eius mollitia quod vero aperiam pariatur, eum excepturi assumenda at
@@ -52,7 +52,7 @@
     &copy; FutNews 2025
   </footer>
 
- 
+
   <script>
     const cardNoticiaTemplate = document.querySelector("#card-noticia-template")
     const listaDeNoticias = document.querySelector("#lista-de-noticias")
@@ -63,8 +63,12 @@
         news.forEach(dados => {
           const card = document.importNode(cardNoticiaTemplate.content, true)
 
+          const thumb = card.querySelector("#thumb")
+          thumb.src = dados.thumb
+
           const tituloLink = card.querySelector("#titulo-link")
           tituloLink.textContent = dados.titulo
+          tituloLink.href = dados.link || "erro404.html"
 
           const descricao = card.querySelector("#descricao")
           descricao.textContent = dados.descricao
