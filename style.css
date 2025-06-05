@@ -40,6 +40,16 @@ header {
   opacity: .5;
 }
 
+.logo{
+  text-decoration: none;
+  color: white;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
 #ativar-menu:checked+#menu-lateral {
   display: block !important;
 }
