@@ -32,7 +32,7 @@
     "cidade": "Manchester",
     "pais": "Inglaterra",
     "capacidadeEstadio": 55097,
-    "camisa": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+    "camisa": "imgs/manchester.png",
     "idolos": ["Roberto Mancini", "David Silva", "Sergio Agüero"],
     "tecnico": "Pep Guardiola",
     "escalacao": [
@@ -57,7 +57,7 @@
     "cidade": "Munique",
     "pais": "Alemanha",
     "capacidadeEstadio": 75000,
-    "camisa": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/120px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+    "camisa": "imgs/bayern.png",
     "idolos": ["Franz Beckenbauer", "Gerd Müller", "Robert Lewandowski"],
     "tecnico": "Thomas Tuchel",
     "escalacao": [
@@ -82,7 +82,7 @@
     "cidade": "Barcelona",
     "pais": "Espanha",
     "capacidadeEstadio": 99354,
-    "camisa": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+    "camisa": "imgs/barcelona.png",
     "idolos": ["Lionel Messi", "Johan Cruyff", "Ronaldinho"],
     "tecnico": "Xavi Hernández",
     "escalacao": [
@@ -107,7 +107,7 @@
     "cidade": "Paris",
     "pais": "França",
     "capacidadeEstadio": 47929,
-    "camisa": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+    "camisa": "imgs/psg.png",
     "idolos": ["Zlatan Ibrahimović", "Neymar", "Ronaldinho"],
     "tecnico": "Luis Enrique",
     "escalacao": [
@@ -132,7 +132,7 @@
     "cidade": "Liverpool",
     "pais": "Inglaterra",
     "capacidadeEstadio": 54074,
-    "camisa": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+    "camisa": "imgs/liverpool.png",
     "idolos": ["Kenny Dalglish", "Steven Gerrard", "Luis Suárez"],
     "tecnico": "Jürgen Klopp",
     "escalacao": [
@@ -157,7 +157,7 @@
     "cidade": "Manchester",
     "pais": "Inglaterra",
     "capacidadeEstadio": 74879,
-    "camisa": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+    "camisa": "imgs/united.png",
     "idolos": ["Eric Cantona", "Ryan Giggs", "Cristiano Ronaldo"],
     "tecnico": "Erik ten Hag",
     "escalacao": [
@@ -182,7 +182,7 @@
     "cidade": "Londres",
     "pais": "Inglaterra",
     "capacidadeEstadio": 41837,
-    "camisa": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+    "camisa": "imgs/chelsea.png",
     "idolos": ["Frank Lampard", "John Terry", "Eden Hazard"],
     "tecnico": "Mauricio Pochettino",
     "escalacao": [
@@ -207,7 +207,7 @@
     "cidade": "Turim",
     "pais": "Itália",
     "capacidadeEstadio": 41507,
-    "camisa": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juventus_FC_2017_logo.svg/120px-Juventus_FC_2017_logo.svg.png",
+    "camisa": "imgs/juventus.png",
     "idolos": ["Alessandro Del Piero", "Roberto Baggio", "Gianluigi Buffon"],
     "tecnico": "Maurizio Sarri",
     "escalacao": [
@@ -232,7 +232,7 @@
     "cidade": "Milão",
     "pais": "Itália",
     "capacidadeEstadio": 80318,
-    "camisa": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/FC_Internazionale_Milano_2021.svg/120px-FC_Internazionale_Milano_2021.svg.png",
+    "camisa": "imgs/inter_milao.png",
     "idolos": ["Giuseppe Meazza", "Javier Zanetti", "Ronaldo Fenômeno"],
     "tecnico": "Simone Inzaghi",
     "escalacao": [
