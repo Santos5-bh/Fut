@@ -62,6 +62,9 @@
         news.forEach(dados => {
           const card = document.importNode(cardNoticiaTemplate.content, true)
 
+          const thumb = card.querySelector("#thumb")
+          thumb.src = dados.thumb
+
           const tituloLink = card.querySelector("#titulo-link")
           tituloLink.textContent = dados.titulo
 
