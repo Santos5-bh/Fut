@@ -7,7 +7,7 @@
     "link": "noticia-psg-inter.html"
   },
   {
-    "thumb": "imgs/placeholder.jpg",
+    "thumb": "imgs/lafc.avif",
     "titulo": "LAFC mira reforços de peso para o Mundial de Clubes",
     "descricao": "LAFC planeja contratar estrelas como Griezmann, Pogba e Müller visando o Mundial de Clubes 2025.",
     "data": "31/05/2025",
@@ -23,7 +23,8 @@
     "thumb": "imgs/placeholder.jpg",
     "titulo": "Atalanta demonstra interesse em Djibril Sow",
     "descricao": "Meio-campista do Sevilla pode reforçar a Atalanta na próxima temporada.",
-    "data": "31/05/2025"
+    "data": "31/05/2025",
+    "link": "noticia-atalanta.html"
   },
   {
     "thumb": "imgs/placeholder.jpg",
