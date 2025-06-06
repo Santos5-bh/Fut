@@ -66,6 +66,7 @@ main h1 {
 }
 
 .time img {
+  width: 100%;
   max-width: 300px;
   display: block;
   margin-bottom: 1.5rem;
