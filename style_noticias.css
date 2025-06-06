@@ -11,10 +11,11 @@ main {
     padding: 10px;
 }
 
-main h1,main h2 {
+main h1,
+main h2 {
     clear: both;
     margin-bottom: 10px;
-    color:#0a4614;
+    color: #0a4614;
 }
 
 h2 {
@@ -35,6 +36,10 @@ main p {
     margin-bottom: 10px;
 }
 
+.imagem.cover {
+    object-fit: cover;
+}
+
 .imagem-lateral {
     width: 350px;
     object-fit: cover;
@@ -44,8 +49,25 @@ main p {
     margin-bottom: 10px;
 }
 
+.p-top {
+    object-position: top;
+}
+
+.p-left {
+    object-position: left;
+}
+
+.p-right {
+    object-position: right;
+}
+
+.p-bottom {
+    object-position: bottom;
+}
+
 @media (max-width: 700px) {
-    .imagem, .imagem-lateral {
+    .imagem,
+    .imagem-lateral {
         width: 100%;
         max-height: 300px;
         object-fit: cover;
