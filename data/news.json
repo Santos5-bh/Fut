@@ -53,12 +53,14 @@
     "thumb": "imgs/placeholder.jpg",
     "titulo": "Vasco é campeão invicto da Copa do Brasil Sub-17",
     "descricao": "Equipe carioca vence o Bahia nos pênaltis e conquista seu primeiro título na categoria.",
-    "data": "06/05/2025"
+    "data": "06/05/2025",
+    "link": "noticía_vasco_invicto.html"
   },
   {
     "thumb": "imgs/placeholder.jpg",
     "titulo": "Brasil vence Sul-Americano Sub-17 nos pênaltis",
     "descricao": "Seleção brasileira conquista seu 14º título ao derrotar a Colômbia na final.",
-    "data": "12/04/2025"
+    "data": "12/04/2025",
+    "link": "noticía_brasil_ganha_sub17.html"
   }
 ]
