@@ -36,8 +36,13 @@ main p {
     margin-bottom: 10px;
 }
 
-.imagem.cover {
-    object-fit: cover;
+.cover {
+    object-fit: cover !important;
+}
+
+
+.contain {
+    object-fit: contain !important;
 }
 
 .imagem-lateral {

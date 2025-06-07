@@ -31,13 +31,15 @@
     "thumb": "imgs/noticia5.png",
     "titulo": "Cristiano Ronaldo avalia futuro na Arábia Saudita",
     "descricao": "Craque português pode renovar com Al Nassr ou mudar de clube no projeto saudita.",
-    "data": "31/05/2025"
+    "data": "31/05/2025",
+    "link": "noticia-cristiano-ronaldo.html"
   },
   {
     "thumb": "imgs/noticia6.png",
     "titulo": "Ancelotti convoca Casemiro e deixa Neymar e Rodrygo de fora",
     "descricao": "Novo técnico da Seleção Brasileira faz mudanças significativas na primeira convocação.",
-    "data": "27/05/2025"
+    "data": "27/05/2025",
+    "link": "noticia-ancelotti.html"
   },
   {
     "thumb": "imgs/noticia7.png",
