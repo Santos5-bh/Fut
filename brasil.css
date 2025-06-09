@@ -17,6 +17,8 @@ main {
 main h1 {
   text-align: center;
   margin-bottom: 2rem;
+  text-shadow: 0px 0px 5px #0005;
+  color: white;
 }
 
 .time {
@@ -35,16 +37,6 @@ main h1 {
   div {
     flex: 1;
   }
-}
-
-.logo{
-  text-decoration: none;
-  color: white;
-}
-
-.logo:hover{
-  transform: scale(1.05);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 700px) {
