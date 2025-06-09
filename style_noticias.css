@@ -84,3 +84,14 @@ main p {
         object-fit: cover;
     }
 }
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2rem;
+
+    ::marker {
+        color: #008829;
+    }
+}
