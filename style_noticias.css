@@ -54,6 +54,12 @@ main p {
     margin-bottom: 10px;
 }
 
+.imagem-lateral.right {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
 .p-top {
     object-position: top;
 }
