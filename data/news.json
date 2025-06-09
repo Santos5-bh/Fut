@@ -52,7 +52,8 @@
     "thumb": "imgs/noticia8.png",
     "titulo": "São Paulo conquista Supercopa Feminina 2025",
     "descricao": "Time feminino do São Paulo vence o Corinthians nos pênaltis e leva o título inédito.",
-    "data": "15/03/2025"
+    "data": "15/03/2025",
+    "link": "noticia_sao_paulo.html"
   },
   {
     "thumb": "imgs/noticia9.png",

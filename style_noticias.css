@@ -28,6 +28,15 @@ main p {
     text-align: justify;
 }
 
+.fala{
+     background: #f9f9f9;
+  border-left: 4px solid #b72b00;
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+  font-style: italic;
+  position: relative;
+}
+
 .imagem {
     display: block;
     width: 100%;
