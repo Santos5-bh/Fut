@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   height: 100vh;
@@ -24,16 +23,31 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   width: 360px;
+  transition: .2s;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    border-radius: unset !important;
+  }
 }
 
 h1 {
   margin-bottom: 1.5rem;
   font-size: 1.6rem;
+  text-align: center;
   color: #004d00;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-  text-align: center;
 }
 
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #333;
+}
 
 input {
   width: 100%;
@@ -51,8 +65,8 @@ input:focus {
 
 button {
   width: 100%;
-  padding: 0.7rem;
   margin-top: 1.5rem;
+  margin-bottom: .5rem;
   background: #004d00;
   color: #fff;
   border: none;
@@ -62,13 +76,34 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: background 0.2s;
+
+  a {
+    display: block;
+    padding: 0.7rem;
+  }
 }
 
 button:hover {
   background: #003300;
 }
 
-a{
+.erro {
+  color: #c00;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
+
+.linkcadastro {
+    color: rgb(37, 118, 194);
+}
+
+.linkcadastro:hover {
+    color: rgb(241, 48, 0);
+    text-decoration: underline;
+}
+
