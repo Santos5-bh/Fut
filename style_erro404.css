@@ -39,6 +39,7 @@ main p {
     text-align: center;
 }
 
+/* Versão mobile */
 @media (max-width: 700px) {
     main h1 {
         font-size: 1.6rem;

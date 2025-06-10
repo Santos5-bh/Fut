@@ -29,12 +29,11 @@ main p {
 }
 
 .fala{
-     background: #f9f9f9;
+  background: #f9f9f9;
   border-left: 4px solid #b72b00;
   margin: 1.5em 0;
   padding: 1em 1.2em;
   font-style: italic;
-  position: relative;
 }
 
 .imagem {
@@ -85,6 +84,7 @@ main p {
     object-position: bottom;
 }
 
+/* Versão mobile */
 @media (max-width: 700px) {
     .imagem,
     .imagem-lateral {
@@ -99,6 +99,7 @@ main ul {
     flex-direction: column;
     gap: 10px;
     padding-left: 2rem;
+    margin-bottom: 10px;
 
     ::marker {
         color: #008829;
