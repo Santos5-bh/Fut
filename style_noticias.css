@@ -85,6 +85,7 @@ main p {
     object-position: bottom;
 }
 
+/* Versão mobile */
 @media (max-width: 700px) {
     .imagem,
     .imagem-lateral {

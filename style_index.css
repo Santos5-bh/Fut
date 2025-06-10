@@ -55,6 +55,7 @@ main {
   border-radius: 5px;
 }
 
+/* Versão mobile */
 @media (max-width: 700px) {
   .card-noticia #thumb {
     width: 90px;

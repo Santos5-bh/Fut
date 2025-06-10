@@ -38,6 +38,7 @@ main h1 {
   }
 }
 
+/* Versão mobile */
 @media (max-width: 700px) {
   .time .container {
     flex-direction: column;

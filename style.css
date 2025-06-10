@@ -99,7 +99,8 @@ main {
   text-transform: uppercase;
 }
 
-@media (max-width: 720px) {
+/* Versão mobile */
+@media (max-width: 700px) {
   #menu-lateral {
     width: 100%;
     animation: fade-in .2s forwards;
