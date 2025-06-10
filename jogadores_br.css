@@ -1,0 +1,92 @@
+/* brasil.css */
+
+body {
+  font-family: Arial, sans-serif;
+  
+  background-size: cover;
+  margin: 0;
+  color: #333;
+}
+
+main {
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 5px #0005;
+  color: white;
+}
+
+.time {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+.time .container {
+  display: flex;
+  flex-direction: row;
+
+  div {
+    flex: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .time .container {
+    flex-direction: column;
+  }
+}
+
+.time h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.time .container-camisa {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.time img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+}
+
+.time p {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.time p+ul {
+  margin-top: 1rem;
+}
+
+
+.time ul li {
+  margin-bottom: 0.5rem;
+}
+
+.time ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.time ul li::marker {
+  color: #008829;
+}

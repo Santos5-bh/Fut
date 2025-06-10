@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "name": "Lionel Messi",
+    "photo": "imgs/messi.jpg",
+    "history": "Revelado pelo Newell’s Old Boys, brilhou no Barcelona (vencedor de 4 Champions) antes de conquistar a MLS pelo Inter Miami.",
+    "club": "Inter Miami",
+    "titles": 42,
+    "goals": 820
+  },
+  {
+    "rank": 2,
+    "name": "Kylian Mbappé",
+    "photo": "imgs/mbappe.jpg",
+    "history": "Formado no AS Monaco, virou ídolo no PSG com dribles e gols decisivos, campeão mundial em 2018 pela França.",
+    "club": "Paris Saint-Germain",
+    "titles": 16,
+    "goals": 298
+  },
+  {
+    "rank": 3,
+    "name": "Erling Haaland",
+    "photo": "imgs/haaland.jpg",
+    "history": "Passou por Molde e RB Salzburg antes de explodir no Borussia Dortmund. Hoje artilheiro arrebatador no Manchester City.",
+    "club": "Manchester City",
+    "titles": 12,
+    "goals": 198
+  },
+  {
+    "rank": 4,
+    "name": "Kevin De Bruyne",
+    "photo": "imgs/de_bruyne.jpg",
+    "history": "Revelado no Genk, cresceu no Chelsea e Wolfsburg, virou maestro no Manchester City com visão de jogo e passes milimétricos.",
+    "club": "Manchester City",
+    "titles": 10,
+    "goals": 98
+  },
+  {
+    "rank": 5,
+    "name": "Mohamed Salah",
+    "photo": "imgs/salah.jpg",
+    "history": "Fez história no Basel e Chelsea antes de se firmar como ídolo e goleador do Liverpool, conquistando Champions e prêmios de artilheiro.",
+    "club": "Liverpool",
+    "titles": 11,
+    "goals": 235
+  },
+  {
+    "rank": 6,
+    "name": "Neymar Jr.",
+    "photo": "imgs/neymar.jpg",
+    "history": "Revelado no Santos, triunfou no Barcelona e PSG, hoje estrela no Al Hilal com dribles desconcertantes e gols de placa.",
+    "club": "Al Hilal",
+    "titles": 26,
+    "goals": 450
+  },
+  {
+    "rank": 7,
+    "name": "Robert Lewandowski",
+    "photo": "imgs/lewandowski.jpg",
+    "history": "Ídolo no Borussia Dortmund e Bayern de Munique, continua goleador implacável no Barcelona, distribuindo gols em todas as competições.",
+    "club": "Barcelona",
+    "titles": 27,
+    "goals": 676
+  },
+  {
+    "rank": 8,
+    "name": "Harry Kane",
+    "photo": "imgs/kane.jpg",
+    "history": "Formado no Tottenham, tornou-se um dos atacantes mais completos do mundo e segue quebrando recordes de artilharia na Premier League.",
+    "club": "Bayern Munich",
+    "titles": 6,
+    "goals": 280
+  },
+  {
+    "rank": 9,
+    "name": "Luka Modrić",
+    "photo": "imgs/modric.jpg",
+    "history": "Revelado no Dinamo Zagreb, é o cérebro do meio-campo do Real Madrid há mais de uma década, vencedor de 5 Champions League.",
+    "club": "Real Madrid",
+    "titles": 29,
+    "goals": 100
+  },
+  {
+    "rank": 10,
+    "name": "Karim Benzema",
+    "photo": "imgs/benzema.jpg",
+    "history": "Ícone no Real Madrid, craque do ataque, conquistou múltiplos títulos europeus e segue brilhando no Al-Ittihad.",
+    "club": "Al-Ittihad",
+    "titles": 36,
+    "goals": 426
+  }
+]

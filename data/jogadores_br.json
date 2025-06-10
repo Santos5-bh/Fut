@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "name": "Neymar Jr.",
+    "photo": "imgs/neymar.jpg",
+    "history": "Revelado pelo Santos FC, Neymar brilhou no Barcelona e PSG antes de chegar ao Al Hilal, tornando-se um dos maiores dribladores e craques da sua geração.",
+    "club": "Al Hilal",
+    "titles": 26,
+    "goals": 440
+  },
+  {
+    "rank": 2,
+    "name": "Vinícius Júnior",
+    "photo": "imgs/vini.jpeg",
+    "history": "Formado no Flamengo, Vini Jr. transferiu-se ao Real Madrid, onde conquistou Champions League e se destacou pela velocidade e gols decisivos.",
+    "club": "Real Madrid",
+    "titles": 15,
+    "goals": 110
+  },
+  {
+    "rank": 3,
+    "name": "Rodrygo",
+    "photo": "imgs/rodrygo.jpg",
+    "history": "Rodrygo teve início no Santos e foi contratado pelo Real Madrid, mostrando frieza nas conclusões e contribuindo com gols importantes.",
+    "club": "Real Madrid",
+    "titles": 14,
+    "goals": 85
+  },
+  {
+    "rank": 4,
+    "name": "Gabriel Jesus",
+    "photo": "imgs/gabriel_jesus.jpg",
+    "history": "Campeão pelo Palmeiras, Jesus brilhou no Manchester City e hoje defende o Arsenal, sendo conhecido pelo senso de posição e capacidade de finalização.",
+    "club": "Arsenal",
+    "titles": 18,
+    "goals": 155
+  },
+  {
+    "rank": 5,
+    "name": "Casemiro",
+    "photo": "imgs/casemiro.jpg",
+    "history": "Casemiro, formado no São Paulo, foi peça-chave no meio-campo do Real Madrid e hoje fortalece o Manchester United com sua marcação e chegada ao ataque.",
+    "club": "Manchester United",
+    "titles": 22,
+    "goals": 75
+  },
+  {
+    "rank": 6,
+    "name": "Alisson Becker",
+    "photo": "imgs/alisson.jpg",
+    "history": "Campeão da Libertadores pelo Internacional, Alisson brilhou na Roma e conquistou Champions League e Premier League com o Liverpool.",
+    "club": "Liverpool",
+    "titles": 16,
+    "goals": 0
+  },
+  {
+    "rank": 7,
+    "name": "Marquinhos",
+    "photo": "imgs/marquinhos.jpg",
+    "history": "Revelado pelo Corinthians, Marquinhos é líder na zaga do Paris Saint-Germain, conhecido pela leitura de jogo e experiência em títulos internacionais.",
+    "club": "Paris Saint-Germain",
+    "titles": 20,
+    "goals": 22
+  },
+  {
+    "rank": 8,
+    "name": "Bruno Guimarães",
+    "photo": "imgs/bruno.jpg",
+    "history": "Bruno brilhou pelo Athletico Paranaense antes de se destacar no Lyon e no Newcastle, sendo referência em assistências e chegada ao ataque.",
+    "club": "Newcastle United",
+    "titles": 7,
+    "goals": 12
+  },
+  {
+    "rank": 9,
+    "name": "Éder Militão",
+    "photo": "imgs/militao.jpg",
+    "history": "Militão passou pelo Porto antes de chegar ao Real Madrid, onde se firmou como titular absoluto da defesa e conquistou diversos títulos europeus.",
+    "club": "Real Madrid",
+    "titles": 13,
+    "goals": 9
+  },
+  {
+    "rank": 10,
+    "name": "Gabriel Martinelli",
+    "photo": "imgs/martinelli.jpg",
+    "history": "Revelado no Ituano, Martinelli é destaque no Arsenal, impressionando pela movimentação e capacidade de finalização mesmo ainda jovem.",
+    "club": "Arsenal",
+    "titles": 6,
+    "goals": 40
+  }
+]
