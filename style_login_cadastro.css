@@ -3,14 +3,12 @@ body {
   height: 100vh;
   /* Grama de estádio: listras claras e escuras */
   background-color: #006400;
-  background-image: 
-    repeating-linear-gradient(
-      0deg,
+  background-image:
+    repeating-linear-gradient(0deg,
       #006400 0,
       #006400 40px,
       #008000 40px,
-      #008000 80px
-    );
+      #008000 80px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +19,7 @@ body {
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   width: 360px;
   transition: .2s;
 }
@@ -32,6 +30,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: unset !important;
+    overflow-y: scroll;
   }
 }
 
@@ -40,7 +39,7 @@ h1 {
   font-size: 1.6rem;
   text-align: center;
   color: #004d00;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 label {
@@ -77,11 +76,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: background 0.2s;
-
-  a {
-    display: block;
-    padding: 0.7rem;
-  }
+  padding: 0.7rem;
 }
 
 button:hover {
@@ -95,16 +90,15 @@ button:hover {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .linkcadastro {
-    color: rgb(37, 118, 194);
+  color: rgb(37, 118, 194);
 }
 
 .linkcadastro:hover {
-    color: rgb(241, 48, 0);
-    text-decoration: underline;
+  color: rgb(241, 48, 0);
+  text-decoration: underline;
 }
-
