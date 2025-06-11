@@ -2,8 +2,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  
-  background-size: cover;
   margin: 0;
   color: #333;
 }
@@ -21,7 +19,7 @@ main h1 {
   color: white;
 }
 
-.time {
+.card {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -30,9 +28,10 @@ main h1 {
   line-height: 1;
 }
 
-.time .container {
+.card .container {
   display: flex;
   flex-direction: row;
+  gap: 10px;
 
   div {
     flex: 1;
@@ -40,17 +39,21 @@ main h1 {
 }
 
 @media (max-width: 700px) {
-  .time .container {
+  .card .container {
     flex-direction: column;
   }
 }
 
-.time h2 {
+.card h2 {
   margin-top: 0;
   margin-bottom: 2rem;
 }
 
-.time .container-camisa {
+.card h2 span {
+  color: #2c9b2c;
+}
+
+.card .container-photo {
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -58,35 +61,30 @@ main h1 {
   margin-inline: auto;
 }
 
-.time img {
+.card img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
   max-width: 300px;
   display: block;
   margin-bottom: 1.5rem;
   margin-inline: auto;
+  border-radius: 10px;
 }
 
-.time p {
+.card p {
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.8rem;
 }
 
-.time p+ul {
-  margin-top: 1rem;
+.card .stats {
+  text-align: right;
 }
 
-
-.time ul li {
-  margin-bottom: 0.5rem;
-}
-
-.time ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-  list-style: disc;
-}
-
-.time ul li::marker {
-  color: #008829;
+.card .stats span {
+  font-weight: bold;
+  background: #108f45;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: white;
 }

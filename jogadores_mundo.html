@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top 10 Times Brasileiros - 2025</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="jogadores_mundo.css">
+    <link rel="stylesheet" href="jogadores.css">
+
+    <style>
+        body {
+            background: url('imgs/internacional.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <a class="logo" href="index.html">
             <h1>FutNews</h1>
         </a>
@@ -30,11 +37,10 @@
             </ul>
         </nav>
 
-        <h1>Top 10 Jogadores do Mundo</h1>
-
     </header>
 
     <main>
+        <h1>Top 10 Jogadores do Mundo</h1>
         <div id="container"></div>
     </main>
 
@@ -42,7 +48,7 @@
         &copy; FutNews 2025
     </footer>
 
-    <script src="jogadores_mundo.js"></script>
+    <script src="jogadores.js" data-json="data/jogadores_mundo.json"></script>
 
 </body>
 
