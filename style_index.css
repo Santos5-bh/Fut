@@ -62,10 +62,6 @@ main {
   }
 }
 
-.card-noticia #titilo::before {
-  content: '🔗';
-}
-
 .card-noticia #titulo-link {
   color: #004d00;
   transition: .2s;
